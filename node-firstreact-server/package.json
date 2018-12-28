@@ -1,0 +1,11 @@
+{
+  "name": "firstreact-server",
+  "version": "1.0.0",
+  "description": "node react server",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server"
+  },
+  "author": "yang5",
+  "license": "ISC"
+}
