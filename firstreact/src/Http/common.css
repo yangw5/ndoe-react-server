@@ -1,0 +1,10 @@
+.iteamli{
+	width: auto;
+	margin: 10px;
+
+}
+li{
+	list-style: none;
+	display: inline;
+	margin-right: 50px;
+}

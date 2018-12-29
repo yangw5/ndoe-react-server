@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Todolist from './Todolist';
+/*import App from './App';*/
+import Router from './router/RouterMap'
+
+/*import RouterMap from './router/routerMap';*/
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<Todolist />, document.getElementById('root'));
+ReactDOM.render(<Router />, document.getElementById('root'));
 
 serviceWorker.unregister();
