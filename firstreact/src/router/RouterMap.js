@@ -5,6 +5,7 @@ import List from '../container/List/List'
 import Detail from '../container/Detail/Detail'
 import Notfound from '../container/Notfound/Notfound'
 
+
 const BasicRoute = () => (
     <HashRouter >
         <Switch>

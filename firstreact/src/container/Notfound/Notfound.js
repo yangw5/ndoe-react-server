@@ -1,20 +1,22 @@
 import React from 'react';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import MenuExampleSimple from '../material/MenuExampleSimple'
+require('./Notfound.css');
+
 export default class Home extends React.Component{
     render () {
         return (
-            <div>Notfound
-            <p>你可以选择已下连接前往你想去的网站,大路由</p>
-            	<ul>
-            		<li>
-            		 	<a href='#/detail'>Detail</a></li>
-            		<li>
-            			<a href='#/list'>List</a></li>
-            		<li>
-            			<a href='#/'>Home</a></li>
-            		<li>
-            			<a href='#/notfound'>Notfound</a></li>
-            	</ul>
-            </div>
+            <MuiThemeProvider>
+              <div className='notfound-containner'>
+
+
+              </div>
+               <div className='notfound-bottom'>
+                <MenuExampleSimple />
+              </div>
+            </MuiThemeProvider>
+
+
         )
     }
 }

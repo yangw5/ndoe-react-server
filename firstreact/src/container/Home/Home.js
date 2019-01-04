@@ -3,7 +3,7 @@ import  {createStore} from 'redux'
 import reducer from '../../redux/Action.js';
 import Todolist from '../../Http/Todolist';
 
-const store =createStore(reducer)
+const store =createStore(reducer)//创建store
 
 export default class Home extends React.Component{
      constructor(props) {
@@ -13,9 +13,9 @@ export default class Home extends React.Component{
         };
     }
     handleAdd = () => {
-        store.dispatch({
-            type: 'INCREMENT',
-            new:++this.state.count
+        store.dispatch({//调用acton方法修改store
+            type: 'INCREMENT',//属性类型
+            new:++this.state.count//传递的数据
         });
     }
     handleDel = () => {

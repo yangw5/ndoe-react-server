@@ -1,5 +1,6 @@
-export default (state=1, action) => {
-    switch (action.type) {  
+//直接修改store的数据
+export default (state=1, action) => {//state 数据 action 传递的的数据
+    switch (action.type) {  //判断state的属性
         case 'INCREMENT':
             return Object.assign({}, state, {//将后面的对象覆盖在前面的对象中,相同属性覆盖 新增没有属性
                 count: action.new,
