@@ -1,8 +1,14 @@
 .notfound-containner{
-	height: 82%;
-	width: 100%;
+
 	background-color: #fff;
 }
 .notfound-bottom{
-	width: 100%
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+}
+.gologn{
+	width: 100%;
+	text-align: right;
+	padding: 20px;
 }
